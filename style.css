@@ -105,11 +105,15 @@ header {
     opacity: 1;
     transform: scale(1.03);
 }
+.fas.fa-search {
+    display: none;
+}
 
 /*FILTRES*/
 
 .container {
     display: flex;
+    flex-wrap: wrap;
     align-items: center;
     gap: 0.625rem;
     padding: 0.5rem 0.25rem;
@@ -155,6 +159,7 @@ header {
 /*INFO*/
 .info {
     display: flex;
+    flex-wrap: wrap;
     align-items: center;
     gap: 0.5rem;
     padding: 1.5rem 0;
@@ -250,7 +255,6 @@ header {
 }
 .titrepop h2 {
     font-size: 1.375rem;
-
 }
 
 .cardpopulaire {
@@ -286,6 +290,7 @@ header {
 /*ACTIVITES*/
 .resultactivité {
     display: flex;
+    flex-wrap: wrap;
     gap: 2.5rem;
 }
 .Activité {
@@ -323,6 +328,7 @@ header {
 /*FOOTER*/
 .footer {
     display: flex;
+    flex-wrap: wrap;
     background-color: #f2f2f2;
     width: 83.75rem;
     height: 10.188rem;
@@ -340,6 +346,20 @@ header {
 .services h4 {
     font-size: 1.125rem;
 }
+
+/*MEDIAS TABLETTE*/
+
+
+    
+    
+    
+
+
+    
+    
+
+    
+
 
 
 
