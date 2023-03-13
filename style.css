@@ -14,9 +14,8 @@ body {
     justify-content: center;
 }
 .card {
-    border-radius: 2rem;
+    border-radius: 20px;
     background-color: #ffffff;
-    padding: 0.5rem;
     box-shadow: 0px 3px 15px rgba(0, 0, 0, 0.1);
 }
 .blue {
@@ -195,7 +194,8 @@ header {
 
 /*HEBERGEMENT*/
 .hebergement {
-    width: 65%;
+    width: 871px;
+    height: 611.5px;
 }
 .hebergement h2 {
     margin-bottom: 2rem;
@@ -212,17 +212,31 @@ header {
     margin-bottom: 0.5rem;
 }
 .cardhebergements {
-    display: grid;
-    grid-template-columns: 16.875rem 16.875rem 16.875rem;
+    display: flex;
     flex-wrap: wrap;
-    gap: 1rem; 
+    gap: 30px;
+}
+.premiererangé {
+    display: flex;
+    flex-direction: row;
+    gap: 30px;
+}
+.deuxiemerangé {
+    display: flex;
+    flex-direction: row;
+    gap: 30px;
+}
+.cardhebergements .card {
+    width: 250.33px;
+    height: 207.25px;
+    padding: 0px 0px 15px 0px;
 }
 
 .card img {
     object-fit: cover;
-    border-radius: 1.25rem 1.25rem 0 0;
-    width: 15.646rem;
-    height: 7.75rem;
+    border-radius: 20px 20px 0 0;
+    width: 250.33px;
+    height: 124px;
 }
 .card h3 {
     font-size: 1rem; 
@@ -236,7 +250,7 @@ header {
     margin-top: 0;
     margin-bottom: 0.5rem;
 }
-.stars {
+.cardhebergements .stars {
     display: flex;
     padding: 0 1rem;
     margin-bottom: 0.5rem;
@@ -244,7 +258,8 @@ header {
 
 /*POPULAIRE*/
 .populaire {
-    width: 32%;
+    width: 429px;
+    height: 611.5px;
 }
 .titrepop {
     display: flex;
@@ -263,27 +278,30 @@ header {
     flex-wrap: wrap;
     gap: 1rem;
 }
+.cardpopulaire .card {
+    display: flex;
+    width: 369px;
+    height: 144px;
+}
 .cardpopulaire img {
-    width: 7.688rem;
-    height: 9rem;
+    width: 123px;
+    height: 144px;
     object-fit: cover;
     border-radius: 1.25rem 0 0 1.25rem;
 }
 .textcard {
-    margin-left: 1rem;
     margin:0;
+    padding-top: 0.5rem;
 }
-.cardpopulaire .card {
+
+.cardpopulaire .stars {
     display: flex;
-}
-.star {
-    display: flex;
-    margin-top: 4.5rem;
+    margin-top: 3.5rem;
     margin-left: 1rem;
 }
 .star1 {
     display: flex;
-    margin-top: 3.4rem;
+    margin-top: 2.5rem;
     margin-left: 1rem;
 }
 
@@ -305,9 +323,9 @@ header {
 .cardactivité {
     display: flex;
     flex-direction: row;
-    justify-content: center;
+    justify-content: space-between;
     flex-wrap: wrap;
-    gap: 2rem;
+    padding: 0 30px;
 }
 .cardA {
     border-radius: 1.25rem;
@@ -316,9 +334,9 @@ header {
 }
 .cardactivité img {
     object-fit: cover;
-    border-radius: 1.25rem 1.25rem 0 0;
-    width: 18.594rem;
-    height: 23.75rem;
+    border-radius: 20px 20px 0px 0px;
+    width: 297.5px;
+    height: 380px;
 }
 .cardA h3 {
     padding: 0 1rem;
@@ -330,7 +348,7 @@ header {
     display: flex;
     flex-wrap: wrap;
     background-color: #f2f2f2;
-    width: 83.75rem;
+    width: 100%;
     height: 10.188rem;
     margin-top: 4rem;
 }
